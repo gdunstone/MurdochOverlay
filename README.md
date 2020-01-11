@@ -4,7 +4,7 @@
 
 Firefox extension that adds an informative overlay to Murdoch ~~lies~~ ~~"news"~~ propaganda.
 
-If I have forgotten any sites or you think that some are on the list in error, create an issue.
+If you think a domain has been added in error or you have another Murdoch domain to add, submit an issue [here](https://github.com/gdunstone/MurdochOverlay/issues/new).
 
 ## Donate
 
