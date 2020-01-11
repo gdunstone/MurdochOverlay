@@ -16,7 +16,7 @@
     rgba(0,0,0,0) 40px
   );
 
-  z-index: 99999999; !important;
+  z-index: 99999999 !important;
   pointer-events: none;
 }
 #murdoch-overlay-text{
