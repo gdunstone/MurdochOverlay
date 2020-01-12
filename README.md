@@ -1,5 +1,7 @@
 ![Logo](icons/icon-128.png?raw=true "Logo")
 
+[Mozilla Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/murdochoverlay/)
+
 # MurdochOverlay
 
 Firefox extension that adds an informative overlay to Murdoch ~~lies~~ ~~"news"~~ propaganda.
