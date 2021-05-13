@@ -2,10 +2,11 @@ browser.storage.sync.get().then((res) => {
 	if (res.mildmessage) {
 		var overlayText = document.createElement('div');
 		var replaceTitle = document.title.replace(/ /g, "+");
-		var txt = "This site is part of the Murdoch propaganda empire";
-			txt += "<br>"
-			txt += `Perhaps you could search for a replacement article with <a href="https://www.ecosia.org/search?q=${replaceTitle}">Ecosia</a>?`;
-			overlayText.innerHTML = txt;
+		var ecosiaLink = document.createElement('a');
+			ecosiaLink.href = `https://www.ecosia.org/search?q=${replaceTitle}`;
+			ecosiaLink.textContent = "Ecosia?"
+			overlayText.innerHTML = "This site is part of the Murdoch propaganda empire<br>Perhaps you could search for a replacement article with ";
+			overlayText.appendChild(ecosiaLink)
 			overlayText.id = "murdoch-mild-text";
 
 		var overlay = document.createElement('div');
