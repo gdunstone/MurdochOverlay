@@ -154,9 +154,19 @@
         "*://*.myfoxmemphis.com/*",
         "*://*.wogx.com/*"
       ],
-      "js": ["overlay.js"],
-      "css": ["overlay.css"]
+      "js": ["content-murdoch.js"],
+      "css": ["content.css"]
+    },
+    {
+      "matches": [
+        "*://*.nine.com.au/*",
+        "*://*.9news.com.au/*",
+        "*://*.pedestrian.tv/*"
+      ],
+      "js": ["content-nine.js"],
+      "css": ["content.css"]
     }
+
   ]
 
 }

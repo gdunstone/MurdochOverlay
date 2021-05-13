@@ -1,7 +1,7 @@
 // options.js
 var opts = [
 	"enablenine",
-	"fullblock"
+	"mildmessage"
 	];
 
 function saveOptions(e) {
