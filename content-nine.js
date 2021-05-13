@@ -5,7 +5,7 @@ browser.storage.sync.get().then((res) => {
 			var replaceTitle = document.title.replace(/ /g, "+");
 			var txt = "This site is part of the 9/Fairfax Propaganda empire";
 			txt += "<br>"
-			txt += `Perhaps you could search for a replacment article with <a href="https://www.ecosia.org/search?q=${replaceTitle}">Ecosia</a>?`;
+			txt += `Perhaps you could search for a replacement article with <a href="https://www.ecosia.org/search?q=${replaceTitle}">Ecosia</a>?`;
 			overlayText.innerHTML = txt;
 			overlayText.id = "murdoch-mild-text";
 
