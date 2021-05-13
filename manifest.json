@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "MurdochOverlay",
-  "version": "1.4",
+  "version": "2.0",
   "browser_specific_settings": {
     "gecko": {
       "id": "{c25509f0-d3ca-4a85-8a91-a7315079dd0d}"
